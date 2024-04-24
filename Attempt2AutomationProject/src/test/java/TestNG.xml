@@ -1,0 +1,53 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite" parallel="tests">
+
+    <test name="Test1_Edge">
+        <parameter name="browser" value="edge"/>
+        <parameter name="testUrl" value="https://www.saucedemo.com/"/>
+        <classes>
+            <class name="Test1"/>
+        </classes>
+    </test>
+
+    <test name="Test1_chrome">
+        <parameter name="browser" value="chrome"/>
+        <parameter name="testUrl" value="https://www.saucedemo.com/"/>
+        <classes>
+            <class name="Test1"/>
+        </classes>
+
+    </test>
+    <test name="Test2_Edge">
+        <parameter name="browser" value="edge"/>
+        <parameter name="testUrl" value="https://www.saucedemo.com/"/>
+        <classes>
+            <class name="Test2"/>
+        </classes>
+    </test>
+
+    <test name="Test2_chrome">
+        <parameter name="browser" value="edge"/>
+        <parameter name="testUrl" value="https://www.saucedemo.com/"/>
+        <classes>
+            <class name="Test2"/>
+        </classes>
+    </test>
+
+    <test name="Test3_Edge">
+        <parameter name="browser" value="edge"/>
+        <parameter name="testUrl" value="https://www.saucedemo.com/"/>
+        <classes>
+            <class name="Test3"/>
+        </classes>
+    </test>
+
+    <test name="Test3_chrome">
+        <parameter name="browser" value="edge"/>
+        <parameter name="testUrl" value="https://www.saucedemo.com/"/>
+        <classes>
+            <class name="Test3"/>
+        </classes>
+    </test>
+
+</suite>
+
